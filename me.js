@@ -1,10 +1,10 @@
-/**Variable: name, Data type: string, Explanation: My name is pronounced like Erin, but spelled like Eranne. **/
-/**Variable: green, Data type: string, Explanation: My favorite shade of green is hunter green or lime green. **/
-/**Variable: hotdog, Data type: string, Explanation: I got my first Chicago Dog at Portillo's in Chicago when I was in middle school, and it's been my favorite food ever since.  **/
-/**Variable: black cat, Data type: string, Explanation: I have been compared to black cats numerous times by friends and family. I relate to their mystery and aloofness.  **/
-/**Variable: fall, Data type: string, Explanation: I am a huge Halloween fan, and also love when it's cold and the leaves start to turn. **/
-/**Variable: age, Data type: number, Explanation: I was born January 3rd, 1998. I am a capricorn. **/
-/**Variable: student, Data type: boolean, Explanation: I am a student at JCCC. **/
+//Variable: name, Data type: string, Explanation: My name is pronounced like Erin, but spelled like Eranne. //
+//Variable: green, Data type: string, Explanation: My favorite shade of green is hunter green or lime green. //
+//Variable: hotdog, Data type: string, Explanation: I got my first Chicago Dog at Portillo's in Chicago when I was in middle school, and it's been my favorite food ever since.  //
+//Variable: black cat, Data type: string, Explanation: I have been compared to black cats numerous times by friends and family. I relate to their mystery and aloofness.  //
+//Variable: fall, Data type: string, Explanation: I am a huge Halloween fan, and also love when it's cold and the leaves start to turn. //
+//Variable: age, Data type: number, Explanation: I was born January 3rd, 1998. I am a capricorn. //
+//Variable: student, Data type: boolean, Explanation: I am a student at JCCC. //
 
 let name = 'Eranne';
 let color = 'green';
