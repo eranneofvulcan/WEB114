@@ -6,17 +6,22 @@
 //Variable: age, Data type: number, Explanation: I was born January 3rd, 1998. I am a capricorn.
 //Variable: student, Data type: boolean, Explanation: I am a student at JCCC.
 
-let name = 'Eranne';
+let myName = 'Eranne';
 let color = 'green';
-let food = 'hotdog';
+let food = 'hotdogs';
 let animal = 'black cat';
 let season = 'fall';
 let age = 28;
 let student = true;
 
-console.log("My name is " + name + ". My favorite color is " + color + ", and my favorite food is a " + food + ".");
-console.log(`I am ${age} years old, my favorite season is ${season}, and my favorite animal is a ${animal}.`);
-
+console.log(
+    "My name is " + myName +
+    ". My favorite color is " + color +
+    ", and my favorite food are " + food + "."
+);
+console.log(
+    `I am ${age} years old. My favorite season is ${season}, and my favorite animal is a ${animal}.`
+);
 //Which data type was easiest to choose? Why?
 //String was the easiest because almost all my variables were words
 
