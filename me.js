@@ -28,5 +28,3 @@ console.log(`I am ${age} years old, my favorite season is ${season}, and my favo
 
 //Why is it helpful to plan data types before coding?
 //Planning data types helps prevent errors and makes the code easier to understand
-
-
