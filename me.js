@@ -18,15 +18,15 @@ console.log("My name is " + name + ". My favorite color is " + color + ", and my
 console.log(`I am ${age} years old, my favorite season is ${season}, and my favorite animal is a ${animal}.`);
 
 //Which data type was easiest to choose? Why?
-//String was the easiest because most of my variables were words or phrases.
+//String was the easiest because almost all my variables were words
 
 //Which variable was hardest to decide a data type for?
-//Student was the hardest because I had to decide whether to use true/false or a string.
+//Student was the hardest because I had to decide whether to use boolean true/false or a string
 
 //What happens if a number is stored as a string in JavaScript?
-//JavaScript treats it as text instead of a number, so math operations may not work as expected.
+//It will be treated as text instead of a number, so math operations will not work
 
 //Why is it helpful to plan data types before coding?
-//Planning data types helps prevent errors and makes the code easier to understand.
+//Planning data types helps prevent errors and makes the code easier to understand
 
 
