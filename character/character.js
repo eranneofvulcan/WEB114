@@ -21,10 +21,8 @@ const superpower = prompt(`What superpower does ${charName} possess?`);
 // Step 8: Years of training
 const trainingYearsText = prompt(`How many years has ${charName} been training?`);
 
-// Convert string → number so we can do math
 const trainingYears = Number(trainingYearsText);
 
-// Log both values and their types to the console
 console.log("trainingYearsText:", trainingYearsText, typeof trainingYearsText);
 console.log("trainingYears:", trainingYears, typeof trainingYears);
 
@@ -35,7 +33,6 @@ const powerLevel = trainingYears * 10;
 const likesFighting = confirm(`Does ${charName} like fighting monsters?
 Click OK for YES  Click Cancel for NO`);
 
-// Log the value and its type
 console.log("likesFighting:", likesFighting, typeof likesFighting);
 
 // Step 10: Loading / preparing message
