@@ -1,0 +1,37 @@
+<!-- Eranne Lenz 07/17/2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Switcher</title>
+  <link rel="stylesheet" href="moods.css">
+  <script src="moods.js" defer></script>
+</head>
+<body>
+
+  <h1 id="moodTitle">Mood Switcher</h1>
+
+  <p id="quote">Click a button to change the mood.</p>
+
+  <div id="buttons">
+    <button id="happyBtn" class="mood-btn">Happy</button>
+    <button id="calmBtn" class="mood-btn">Calm</button>
+    <button id="angryBtn" class="mood-btn">Angry</button>
+    <button id="sleepyBtn" class="mood-btn">Sleepy</button>
+  </div>
+
+  <section id="questions">
+    <h2>Reflection Questions</h2>
+
+    <h3>1. Why is textContent safer than innerHTML?</h3>
+    <p> textContent only deals with plain text, making it safer in situations where the input might not be entirely trusted</p>
+
+    <h3>2. How are HTML elements connected to JavaScript variables using DOM selection?</h3>
+    <p>HTML elements are connected to JavaScript variables by assigning the result of a Document Object Model (DOM) selection method to a variable.</p>
+    <h3>3. What would happen to the text box with id="text" if I added this line of code above it: text.textContent = "Hello!"?</h3>
+    <p>The text inside that element would be replaced with the word "Hello!".</p>
+  </section>
+
+</body>
+</html>
