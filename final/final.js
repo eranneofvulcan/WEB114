@@ -112,7 +112,6 @@ function updateCharacterCard(rarity, luckNote) {
   document.getElementById("powerScore").textContent = `Power Score: ${c.powerScore}`;
   document.getElementById("rarityBadge").textContent = `Rarity: ${c.rarity}${luckNote}`;
   document.getElementById("specialAbility").textContent = `Special Ability: ${c.specialAbility}`;
-  document.getElementById("rollTimestamp").textContent = `Rolled at: ${c.rollTime}`;
 
   characterCard.classList.remove("rarity-common", "rarity-rare", "rarity-legendary");
   characterCard.classList.add(`rarity-${rarity.toLowerCase()}`);
