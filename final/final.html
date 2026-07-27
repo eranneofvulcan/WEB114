@@ -1,0 +1,66 @@
+  <!-- Eranne Lenz 07/21/2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RPG Character Generator</title>
+  <link rel="stylesheet" href="final.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Fated Chronicles</h1>
+    <p class="subtitle">Random RPG Character Generator</p>
+  </header>
+
+  <div id="d20">20</div>
+
+  <main>
+    <section id="controls">
+      <label for="classFilter">Preferred Class:</label>
+      <select id="classFilter">
+        <option value="any">Any</option>
+        <option value="Necromancer">Necromancer</option>
+        <option value="Warrior">Warrior</option>
+        <option value="Rogue">Rogue</option>
+        <option value="Bard">Bard</option>
+        <option value="Ranger">Ranger</option>
+        <option value="Sorcerer">Sorcerer</option>
+      </select>
+
+      <label for="luckInput">Luck Bonus (0-10):</label>
+      <input type="number" id="luckInput" min="0" max="10" placeholder="0">
+
+      <button id="generateBtn">Roll Character</button>
+      <button id="saveBtn">Save to Roster</button>
+    </section>
+
+    <p id="filterPreview">Filtering for: Any</p>
+
+    <section id="characterCard" class="rarity-common">
+      <h2 id="charName">???</h2>
+      <p id="charRaceClass">Race - Class</p>
+      <ul id="statList">
+        <li>Strength: --</li>
+        <li>Dexterity: --</li>
+        <li>Intelligence: --</li>
+        <li>Charisma: --</li>
+      </ul>
+      <p id="powerScore">Power Score: --</p>
+      <p id="rarityBadge">Rarity: --</p>
+      <p id="specialAbility">Special Ability: --</p>
+      <p id="rollTimestamp">Rolled at: --</p>
+    </section>
+
+    <section id="rosterSection">
+      <h2>Your Roster (<span id="rosterCount">0</span>)</h2>
+      <ul id="rosterList"></ul>
+    </section>
+  </main>
+
+  <script src="final.js"></script>
+</body>
+</html>
